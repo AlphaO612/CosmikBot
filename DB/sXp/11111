@@ -1,0 +1,56 @@
+{
+    "code": {
+        "ver": "2.0",
+        "verjson": "2.0"
+    },
+    "main": {
+        "id": 0,
+        "sXp": 0, # кол-во серверного опыта
+        "nm": 0, # кол-во сообщений
+        "timeVoice": 0,
+        "timeBorn": None
+    },
+    "moderation": {
+        "notice": 0, # кол-во предупреждений
+        "note": "", # заметки
+        "banroom": { # тип наказания
+            "user": 0, # айди модератора
+            "hasIt": False, # статус этого типа наказания
+            "text": "", # причина наказания
+            "time": { # время окончания
+                "day": 0, # день
+                "month": 0, # месяц
+                "year": 0, # год
+                "hour": 0, # час
+                "minute": 0, # минута
+                "second": 0 # секунда
+            }
+        },
+        "mutevoice": {
+            "user": 0, 
+            "hasIt": False,
+            "text": "", 
+            "time": { 
+                "day": 0,
+                "month": 0,
+                "year": 0,
+                "hour": 0,
+                "minute": 0,
+                "second": 0
+            }
+        },
+        "mutechat": {
+            "user": 0,
+            "hasIt": False,
+            "text": "",
+            "time": {
+                "day": 0,
+                "month": 0,
+                "year": 0,
+                "hour": 0,
+                "minute": 0,
+                "second": 0
+            }
+        }
+    }
+}
